@@ -1,9 +1,9 @@
 const corsOption = {
   origin: [
     "http://localhost:5173",
-    process.env.CLIENT_URL,
-    "http://mtaindia.org",
-    "http://www.mtaindia.org",
+    "https://mtaindia.org", // Update to HTTPS
+    "https://www.mtaindia.org",
+    "https://api.mtaindia.org", // Ensure this is also allowed
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
