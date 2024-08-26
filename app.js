@@ -18,6 +18,9 @@ const mongoUri = process.env.MONGODB_URI;
 
 connectDb(mongoUri);
 
+app.get("/test", (req, res) => {
+  res.send("Test route is working!");
+});
 app.use("/api/v1", contactRoutes);
 app.use("/api/v1", registrationRoutes);
 
