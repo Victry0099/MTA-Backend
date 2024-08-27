@@ -96,7 +96,7 @@ export const createContact = async (req, res) => {
       from: process.env.EMAIL_USER,
       to: email,
       subject: "Thank You for Contacting Us",
-      text: `Dear ${name},\n\nThank you for getting in touch with us! We have received your message and will get back to you shortly.\n\nBest regards,\nYour Company Name`,
+      text: `Dear ${name},\n\nThank you for getting in touch with us! We have received your message and will get back to you shortly.\n\nBest regards,\nMTA-INDIA`,
     };
 
     // Send email to the recipient (admin)
