@@ -124,9 +124,9 @@ Welcome aboard, and we look forward to helping you achieve your IT goals!\n
 
 Best Regards,\n
 
-Kavita Mam\n 
+Kavita Mam (Business Development)\n 
 MTA-INDIA\n
-7654894568`,
+91+ 9315636357`,
     };
 
     // Send email to the recipient (admin)
